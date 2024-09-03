@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restorant DoñaRosa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contacto</a>
+            <a href="">Info</a>
+            <a href="">Reservas</a>
+            <a href="">Carrito</a>
+        </nav>
+    </header>
+
+     <!-- carousel     aqui empieza el fondo tracero al pasar los 7seg - si van anexar otras comida dentro de la clase "list" -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/asado2.png">
+                <div class="content">
+                    <div class="author">Restaurant DoñaRosa</div>
+                    <div class="title">Asado Chileno</div>
+                    <div class="topic">Para disfrutar desde el 18 al 22 de sep.</div>
+                    <div class="des">
+                        El asado” es un término muy común en Chile, es un tipo de preparación de carne que si usted prueba jamás se podrá olvidar. El asado verdadero esta hecho con carne de vacuno con un corte que se llama plateada
+                    </div>
+                    <div class="buttons">
+                        <button>Ver Mas</button>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/casuela.jpg">
+                <div class="content">
+                    <div class="author">Restaurant DoñaRosa</div>
+                    <div class="title">Casuala</div>
+                    <div class="topic">Vacuno, ternera o pollo</div>
+                    <div class="des">
+                        La cazuela es en Chile un plato típico, elaborado con una presa de carne de vacuno, de pollo, de pavo, de ganso o de gallina de campo, más verduras variadas: zapallo, choclo, papa. A veces se le añade arroz, chuchoca u otras verduras. ​ Por su composición se aproximaría al sancocho de los países caribeños.
+                    </div>
+                    <div class="buttons">
+                        <button>Ver Mas</button>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/curanto-olla.webp">
+                <div class="content">
+                    <div class="author">Restaurant DoñaRosa</div>
+                    <div class="title">Curanto en olla</div>
+                    <div class="topic">La especialidad de Doña Rosa</div>
+                    <div class="des">
+                        Forma parte de la gastronomía de Chile, y es uno de los platos más reconocidos de la cocina tradicional chilota cuya data más antigua de restos arqueológicos se remontaría a más de once mil años antes del presente en la isla Grande.
+                    </div>
+                    <div class="buttons">
+                        <button>Ver Mas</button>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/empanaChilenas.png">
+                <div class="content">
+                    <div class="author">Restaurant DoñaRosa</div>
+                    <div class="title">Empanadas de Pino</div>
+                    <div class="topic">De camaron, de pollo, de carne, de chancho</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>Ver Mas</button>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- carousel miniatura o thumbnail, aqui comienza el carousel miniatura si van anexar otra comida mantengan el orden de arriba  -->
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/asado.jpg">
+                <div class="content">
+                    <div class="title">
+                        Asado Chileno.
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/casuela.jpg">
+                <div class="content">
+                    <div class="title">
+                        Casuela.
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/curanto-olla.webp">
+                <div class="content">
+                    <div class="title">
+                        Curanto en olla.
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/empanaChilenas.png">
+                <div class="content">
+                    <div class="title">
+                        Empanada de Pino.
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev  Botones para avanzar el carousel adelante y atras-->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!-- time running - con esta clase se termina el tiempo de espera entre cambio de imagen-->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
