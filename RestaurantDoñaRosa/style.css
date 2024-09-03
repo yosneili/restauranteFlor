@@ -307,3 +307,54 @@ header a{
         font-size: 30px;
     }
 }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-title h3 {
+    margin: 0;
+}
+
+.social-links {
+    margin-bottom: 15px;
+}
+
+.social-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.contact-info {
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+.copyright p {
+    margin: 0;
+}
